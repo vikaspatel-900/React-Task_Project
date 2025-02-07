@@ -5,6 +5,8 @@ import Home from "../pages/home/Home";
 import About from "../pages/about/About";
 import Contact from "../pages/contact/Contact";
 import Service from "../pages/service/Service";
+import WhyChoose from "../pages/why_choose_us/WhyChoose";
+import HowItsWork from "../pages/how_its_work/HowItsWork";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,16 @@ const router = createBrowserRouter([
       {
          path:"/service",
          element:<Service/>
+      },
+
+      {
+        path:"/whyChooseUs",
+        element:<WhyChoose/>
+      },
+
+      {
+        path:"/howitswork",
+        element:<HowItsWork/>
       },
 
       {

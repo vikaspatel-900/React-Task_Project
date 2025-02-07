@@ -11,11 +11,11 @@ export const Navdata=[
 
     {
         title:"Why Choose Us",
-        href:""
+        href:"/whyChooseUs"
     },
     
     {
         title:"How it Works",
-        href:""
+        href:"/howitswork"
     }
 ]

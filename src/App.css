@@ -212,6 +212,21 @@ footer{
 
 
 
+.howitswork-section{
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/*=============================================================media====================================================*/
+
+
+
+
+
 @media only screen and (max-width:1280px){
   .top-footer{
     display: flex;

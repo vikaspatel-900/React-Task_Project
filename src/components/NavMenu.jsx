@@ -41,8 +41,8 @@ const NavMenu = () => {
                     <div className="offcanvas-body">
                         <NavLink style={{textDecoration:"none"}} to={"/"}>Home</NavLink>
                         {
-                         Navdata.map((data)=>{
-                           return <NavLink style={{textDecoration:"none"}} to={data.href}>{data.title}</NavLink>
+                         Navdata.map((data,index)=>{
+                           return <NavLink key={index} style={{textDecoration:"none"}} to={data.href}>{data.title}</NavLink>
                          })
                         }
 

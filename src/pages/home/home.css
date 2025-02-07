@@ -322,3 +322,14 @@
         padding: 20px;
     }
 }
+
+
+
+@media only screen and (max-width:400px){
+    .home-section .home-content h2{
+        font-size: 25px;
+        width: 90%;
+    }
+}
+
+

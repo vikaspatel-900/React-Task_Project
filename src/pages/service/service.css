@@ -2,3 +2,10 @@
     width: 100%;
     padding: 60px 0px;
 }
+
+
+.loading{
+    font-size: 30px;
+    color: chocolate;
+    text-align: center;
+}
