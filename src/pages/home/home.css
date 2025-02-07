@@ -1,0 +1,303 @@
+.home-section{
+    height: 96vh;
+    width: 100%;
+    background-image: url(https://shreethemes.in/bootgen/layouts/images/portfolio/bg02.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.home-section .home-content{
+    height: 100%;
+    width: 100%;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.532);
+    gap: 20px;
+}
+
+
+.home-section .home-content h2{
+    font-size: 50px;
+    width: 600px;
+}
+
+.home-section .home-content p{
+   font-size: 22px;
+}
+
+
+
+.home-section .home-content button{
+    width: 150px;
+    padding: 10px 0px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 2px solid white;
+}
+
+
+.home-section .home-content button:hover{
+    background: none;
+    color: white;
+}
+
+
+
+
+
+
+.home-sec-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 20px;
+}
+
+
+.home-sec-2-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+
+.home-sec-2-head h3{
+    font-size: 40px;
+}
+
+.home-sec-2-head{
+    font-size: 20px;
+}
+
+
+.home-sec2-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+.home-sec2-box div{
+    width: 400px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    border-radius: 8px;
+    text-align: center;
+    gap: 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+.home-sec2-box div h3{
+    font-size: 25px;
+}
+
+.home-sec2-box div p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.516);
+}
+
+
+.home-sec2-box div button{
+    border: none;
+    font-size: 18px;
+    background-color:white;
+    color:rgb(238, 99, 0);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.home-sec2-box div i{
+    font-size: 30px;
+    color:rgb(238, 99, 0);
+}
+
+
+
+
+
+
+
+
+/*=====================================================section-3=========================================================*/
+
+.home-img-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+
+.home-img-box div{
+    width: 400px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    border-radius: 8px;
+    
+    gap: 25px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+
+.home-img-box img{
+    width: 100%;
+}
+
+
+
+
+.home-img-box div h3{
+    font-size: 25px;
+}
+
+.home-img-box div p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.516);
+}
+
+
+.home-img-box div button{
+    border: none;
+    font-size: 18px;
+    background-color:white;
+    color:rgb(238, 99, 0);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+    gap: 10px;
+}
+
+
+.home-img-box div i{
+    font-size: 30px;
+    color:rgb(238, 99, 0);
+}
+
+
+
+
+
+
+/*=================================================media==================================================*/
+
+
+@media only screen and (max-width:1150px){
+    .home-section .home-content h2{
+        font-size: 35px;
+        width: 450px;
+    }
+
+
+    .home-section .home-content{
+        padding: 0px 100px;
+    }
+}
+
+
+
+@media only screen and (max-width:750px){
+    .home-section .home-content h2{
+        font-size: 30px;
+        width: 450px;
+    }
+
+
+    .home-section .home-content p{
+        font-size: 16px;
+    }
+
+
+    .home-section .home-content{
+        padding: 0px 50px;
+    }
+
+
+    .home-section{
+        height: 500px;
+        
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:750px){
+    .home-sec2-box div{
+        width: 300px;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 300px;
+        border-radius: 8px;
+        text-align: center;
+        gap: 15px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+
+
+    .home-sec2-box div p{
+        font-size: 16px;
+    }
+
+    .home-sec2-box div h3{
+        font-size: 20px;
+    }
+
+
+    .home-sec-2-head h3{
+        font-size: 30px;
+    }
+
+    .home-sec-2-head p{
+        font-size: 16px;
+    }
+
+
+    .home-img-box div{
+        width: 350px;
+        height: 400px;
+        gap: 10px;
+    }
+
+
+    .home-img-box div h3{
+        font-size: 18px;
+    }
+
+    .home-img-box div p{
+        font-size: 16px;
+    }
+
+    
+}
