@@ -22,8 +22,10 @@
 
 
 .home-section .home-content h2{
-    font-size: 50px;
-    width: 600px;
+    font-size: 70px;
+    width: 650px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 900;
 }
 
 .home-section .home-content p{
@@ -75,6 +77,8 @@
 
 .home-sec-2-head h3{
     font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 900;
 }
 
 .home-sec-2-head{
@@ -300,4 +304,21 @@
     }
 
     
+}
+
+
+
+
+
+@media only screen and (max-width:530px){
+    .home-section{
+        background-size:cover;
+        height: 400px;
+        overflow: hidden;
+    }
+
+
+    .home-section .home-content{
+        padding: 20px;
+    }
 }

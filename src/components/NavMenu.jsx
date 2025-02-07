@@ -4,6 +4,7 @@ import '../App.css'
 import { Navdata } from "../contants/Navbar";
 import { NavLink } from "react-router-dom";
 
+
 const NavMenu = () => {
     return (
 
@@ -23,15 +24,13 @@ const NavMenu = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div
-                    className="offcanvas offcanvas-end text-bg-dark"
+                    className="offcanvas offcanvas-end "
                     tabindex="-1"
                     id="offcanvasDarkNavbar"
                     aria-labelledby="offcanvasDarkNavbarLabel"
                 >
                     <div className="offcanvas-header">
-                        <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">
-                            Dark offcanvas
-                        </h5>
+
                         <button
                             type="button"
                             className="btn-close btn-close-white"
@@ -40,14 +39,14 @@ const NavMenu = () => {
                         ></button>
                     </div>
                     <div className="offcanvas-body">
-                        
+                        <NavLink style={{textDecoration:"none"}} to={"/"}>Home</NavLink>
                         {
                          Navdata.map((data)=>{
                            return <NavLink style={{textDecoration:"none"}} to={data.href}>{data.title}</NavLink>
                          })
                         }
 
-                        <button>Contact US</button>
+                        <NavLink to={"/contact"}><button>Contact US</button></NavLink>
                     </div>
                 </div>
             </div>

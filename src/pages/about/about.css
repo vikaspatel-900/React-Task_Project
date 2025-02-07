@@ -465,3 +465,27 @@
     width: 90%;
   }
 }
+
+
+
+
+@media only screen and (max-width:445px){
+  .about-top-sec-img {
+   display: none;  
+  }
+
+
+  .about-top-sec{
+    height: 350px;
+  }
+
+
+  .about-top-sec h2{
+    font-size: 35px;
+    width: 90%;
+  }
+
+  .about-sec3 h2{
+    font-size: 25px;
+  }
+}
